@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* HEADER STYLING */
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    padding-inline: 2%;
+    flex-shrink: 0;
+}
+
+header ul {
+    display: flex;
+    gap: 5%;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex: 1
+}
+
+canvas {
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+}
